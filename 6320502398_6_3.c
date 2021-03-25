@@ -1,7 +1,10 @@
 #include<Stdio.h>
-int maiin()
+int main()
+{
+
+
 int m,n;
-scanf(" %d %d ",&m,&n);
+scanf("%d %d ",&m,&n);
 int q[m];
 for(int i=0;i<m;i++)
 {
@@ -31,4 +34,5 @@ for(i=0;i<n;i++)
         printf("%d\n",sum);
 
     }
+}
 }

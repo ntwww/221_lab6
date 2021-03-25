@@ -18,7 +18,7 @@ for (i=0;i<n;i++)
         loc=i;
         max=p[i];
     }
-    if(max<p[i]);
+    if(max<p[i]&&loc!=i);
     {
         loc2=i;
         max1=p[i];
